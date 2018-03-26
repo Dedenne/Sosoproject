@@ -1,0 +1,29 @@
+Damien Violeau has been working since 1997 at the Laboratoire National d’Hydraulique et Environnement of EDF R&D, where he was appointed Senior Scientist in 2013. He is also involved in the Laboratoire d’Hydraulique Saint-Venant, created in 2006. His main activities are the development of the Smoothed Particle Hydrodynamics (SPH) numerical method and the design of coastal waterworks, with an additional contribution to turbulent processes in the environment. He compiled his work on Theoretical fluid mechanics, SPH and its application to waterworks in a 600+ page book published by Oxford University Press in 2012. Besides his research activities, he developed a long and fruitful teaching experience, as lecturer in several engineering colleges in France, in particular Ecole des Ponts ParisTech, where he has been teaching Fluid Mechanics since 1998.
+
+
+Damien was introduced to IAHR in 2003, first as a member of the Hydroinformatics Section, then as a member of the Maritime Section (now Committee on Coastal and Maritime Hydraulics) where he was secretary from 2006 to 2007. He participated to the Biennial congresses since then, as well as many other IAHR congresses, as speaker, chairman and organizer of special sessions. He is also a regular reviewer of JHR, and was appointed Associate Editor in January 2015. He was co-opted member of the Council in 2013 and participated to the Council meeting in Porto that year. Since then, he started to think about the way to improve the links between Industry and Academia in IAHR. He also built a new YPN, the Paris IAHR YPN, officially started at the end of 2014; he is the YPN advisor.
+
+Damien has also been member of ERCOFTAC and is member of the French Hydro Society (SHF). In 2005, he created the SPH European Research Interest Community which he chaired until 2009.
+
+Statement
+
+
+If elected, Damien Violeau will work to:
+
+
+Continue to increase relations between Academia and Industry within our community
+
+
+Develop the interest in water and hydro-environmental sciences in Universities, by extending the Paris YPN to other Paris universities / engineering schools
+
+
+Promote IAHR and enhance exchanges with other existing scientific communities (in particular the French Hydro Society)
+
+
+Help in keeping IAHR a dynamic community in the (near) future, by attracting new young scientists and trying to foster communication between the latter and the most experienced members
+
+
+Promote more communication between specialists of connected areas (e.g. sediment and turbulence; waves and coastal currents, coastal and river flows, etc.)
+
+
+Foster the use of recently developed numerical methods for fluids and High Performance Computing in order to extend the capabilities of CFD to a wider range of applications in hydraulic engineering.

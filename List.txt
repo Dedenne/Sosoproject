@@ -1,0 +1,115 @@
+Hydraulic Machinery and Systems
+Tsinghua University,P.R. China; Asian Working Group Coordinator
+
+
+Dr. Carl HÖEGSTRÖM, VATTENFALL, Sweden
+
+
+Prof. Romeo SUSAN-RESIGA, Politehnica University Timisoara, Romania; Working Group Coordinator (Cavitation and Dynamic Problems in Hydraulic Machinery and Systems)
+
+Prof.Kazuyoshi MIYAGAWA,WASEDA University, Japan
+
+Dr. Jiri KOUTNIK,Voith Hydro, Germany
+
+Prof. Regiane FORTES-PATELLA,Grenoble Institute of Technology, France
+
+
+Mrs.Anna DUPONT,SHF,France
+
+IAHR Hydraulics Division Programme Officer
+
+
+Jenny Lu, IAHR Secretariat jenny.lu@iahr.org
+
+
+Scope
+
+
+The IAHR-Committee on Hydraulic Machinery and Systems deals with the advancement of technology associated with the understanding of steady and unsteady flow characteristics in hydraulic machinery and conduit systems connected to the machinery. The technology elements include the fluid behaviour within machine components, hydro-elastic behaviour of machine components, cavitation, and two phase flow in turbines and pumps, hydraulic machine and plant control systems, the use of hydraulic machines to improve water quality, and even considerations to improve fish survival in their passage through hydro plants. Included in two phase pumping are gas oil pumps and sand laden water. Because model tests and laboratory tests carried out in laboratories must be scaled down from the prototypes, studies of size and pressure scale effects are also a central research field. The research work in the Committee forms the basic study for the IEC standards code dealing with hydraulic machinery for hydroelectric power plants.
+
+
+The main emphases of the IAHR Committee on Hydraulic Machinery and Systems are to stimulate research and understanding of the technologies associated with hydraulic machinery and to promote interaction between the machine designers, machine users, the academic community, and the community at large. Hydraulic machinery is both cost effective and environmentally responsible. The increasing atmospheric content of carbon dioxide related to pollution from thermal power plants, is one of the most significant threats to our global ecology. The problem is exacerbated by the need for increased energy production in third world countries. This results in rising global temperatures and dramatic changes in climate which may also result in flooding in parts of our globe. Energy conservation together with replacement of coal and oil-fired power plants are, therefore, needed. The development and installation of more efficient hydroelectric power plants which work hand in hand with water storage and flood protection is part of this strategy. Waterpower is the most significant "renewable resource". The goals of this IAHR Committee are to improve the value of hydraulic machinery to the end user and to society and to improve society’s understanding and appreciation of that value.
+
+
+To meet its objectives, the Committee focuses on the best possible exchange of technical knowledge through collegial contacts by arranging Committee Symposia every second year, between the IAHR Congresses. The Symposia are designed to attract scientists and engineers from industry, universities, consultants and users of hydraulic machinery. In addition, specialised symposia are organised focusing on the subjects of its 4 working groups: WG1 – "Behaviour of Hydraulic Machinery Under Steady Oscillatory Conditions"; WG2 – "Similitude for Cavitation Model Testing of Hydraulic Machinery"; WG3 – "The Scale Effect on Performance and Efficiency of Hydraulic Turbines and Pumps"; WG4 – "Use of Numerical Flow Simulation for the Prediction of Losses in, and Therefore the Performance of, Hydraulic Machines".
+
+
+Research Agenda
+
+Flow analysis within machines: The viscous 3-D numerical simulation of steady-state flows in turbines and pumps and the resultant refined knowledge of internal flow physics have led to a significant improvement in the performance characteristics of hydraulic machines. Further improvements in the operating qualities and performance of hydraulic machines can be made using advances in computational modelling. Faster computers, improved computational methods, advances in turbulence modelling, and the inclusion of unsteady multi-phase flow physics in the "Numerical Laboratory," combined and correlated with laser doppler and dynamic pressure measurements of rotating and stationary parts in turbines in the "physical Model Laboratory" will provide the basis for these improvements. Analyses accounting for unsteady 3-D viscous flows including the interaction between stationary and rotating components will be a central research theme in the future. The activities of WG 4 will use advanced flow analysis technologies to advance the state of the art in understanding scale effects.
+
+Other activities: Future activities will include research on pumps dealing with two-phase flow and non-linear problems solved by new techniques such as chaos theory. Draft tube flow appears to be one of the subjects suitable to be studied by such methods. As a consequence of the wishes of hydro plant owners for improved reliability and reduced downtime, considerations for the future will also include the development of new materials and manufacturing methods for hydraulic machines, as well as the analytic tools for design and evaluation of machine components. Research to improve the environmental friendliness of hydraulic machines will become a significant theme, including methodologies for increasing fish passage survival and for reducing water borne pollution. Methodologies for sensing and diagnosing impending plant problems and for making recommendations for mitigation are also subjects of growing interest.
+
+
+Past Events and Publications
+International Workshop on Cavitation and Dynamic Problems in Hydraulic Machinery
+
+6th IAHR International Workshop on Cavitation and Dynamic Problems in Hydraulic Machinery, Ljubljana, Slovenia, 9-11 September 2015, http://iahrwg2015.si/en/
+
+5th IAHR International Workshop on Cavitation and Dynamic Problems in Hydraulic Machinery, Lausanne, Switzerland, 8-11 September 2013 Website
+
+4th IAHR International Workshop on Cavitation and Dynamic Problems in Hydraulic Machinery, Belgrade, Serbia, 26-28 October 2011 Website
+
+3rd IAHR International Workshop on Cavitation and Dynamic Problems in Hydraulic Machinery, Brno, Czech Republic, 14-16 October 2009
+
+2nd IAHR International Workshop on Cavitation and Dynamic Problems in Hydraulic Machinery, Timisoara, Romania, 2007
+
+Symposium on Hydraulic Machinery and Systems
+
+28th IAHR Symposium on Hydraulic Machinery and Systems, 4-8 July 2016, Grenoble, France Website / Video / Report 
+
+27th IAHR Symposium on Hydraulic Machinery and Systems, 22-26 September 2014, Montréal, Canada AbstractsOpen Access Proceedings
+
+26th IAHR Symposium on Hydraulic Machinery and Systems, Beijing, 19-23 August 2012. The 270 papers in the proceedings are now permanently free to read at Open Access Proceedings
+
+25th IAHR Symposium on Hydraulic Machinery and Systems, Timisoara, Romania, 20-24 September 2010 1. ON-LINE: Volume 12 of the Institute of Physics Conference Series: Earth and Environmental Science,http://iopscience.iop.org/1755-1315/12/1 (available free) 2. PRINTED: Proceedings of the 25th IAHR Symposium on Hydraulic Machinery and Systems, R. Susan-Resiga, S. Muntean, and S.I. Bernad (editors), Editura Politehnica, Timisoara, Romania, Volume 1 (466 p.), Volume 2 (481 p.), A4 format, full color. (available upon request at iahr2010@acad-tim.tm.edu.ro) 3. CD-ROM: attached to the Book of Abstracts, distributed to all participants to the symposium. Open Access Proceedings
+
+24th IAHR Symposium on Hydraulic Machinery and Systems, October 27-31, 2008, Foz do Iguassu, Brazil. Book of abstracts + CD-ROM. Available at iahrmachinery2008@gmail.com
+
+23rd IAHR Symposium on Hydraulic Machinery and Systems, Yokohama, Japan, October 17-21, 2006 (CD). Buy in our e-shop or contact membership@iahr.org
+
+22nd IAHR Symposium on Hydraulic Machinery and Systems, June 29 - July 2, 2004. Stockholm, Sweden. Table of contents Contact elsa.incio@iahr.org
+
+21st IAHR Symposium on Hydraulic Machinery and Systems, Lausanne, Switzerland, September 9-12, 2002. From: Henri-Pascal Mombelli, EPL-IMHEF-LMH, Avenue de Cour 33bis, 1007 Lausanne, Switzerland. Fax: +41 21 693 35 54 E-mail: henri-pascal.mombelli@epfl.ch
+
+The Behaviour of Hydraulic Machinery under Steady Oscillatory Conditions, Trondheim, Norway, June 26-28, 2001. Euro 100. From: Norwegian University of Science & Technology (NTNU). NTNU-ITEV, attn. W. Johansen, Alfred Getz v.4, 7491 Trondheim, Norway. Fax: +47 73 59 3854 or E-mail: iahr2001@maskin.ntnu.no
+
+20th IAHR Symposium on Hydraulic Machinery and Cavitation, Charlotte (NC), USA, August 6-9, 2000. Contact membership@iahr.org
+
+19th IAHR Symposium on Hydraulic Machinery and Cavitation, September 9-11, 1998. 2 vol.s. Asia & Pacific US$ 70, RO: US$ 85 (include. P&P). The Environmental Engineering Society of Singapore, Kent Ridge, P.O. Box 1007, Singapore 911101. E-mail : kheeyang@mbox2.singnet.com.sg
+
+18th IAHR Symposium on Hydraulic Machinery and Cavitation, Valencia, Spain, September 16-19, 1996. From Ms.Amparo López, Unidad Docente Mecánica de Fluidos (U.D.M.F.), Departamento de Ingeniería Hidráulica y Medio Ambiente, Universidad Politécnica de Valencia, Apartado de Correos 22012, 46071 Valencia, Spain. Contact elsa.incio@iahr.org
+
+17th IAHR Symposium on Hydraulic Machinery and Cavitation, Beijing, China, September 15-19, 1994. From International Research Centre on Hydraulic Machinery (Beijing), 7 Baishengcun, Zizhuyuannan, Beijing, China. Price: US$ 95,-, 4 volumes.
+
+16th IAHR Symposium on Hydraulic Machinery and Cavitation, Sao Paulo, Brazil, September 14-18, 1992. From Av. Prof. Lucio Martins Rodrigues, 120, Cidade Universitaria, 05508, Sao Paulo, SP, Brazil.
+
+Modelling, Testing & Monitoring for Hydro Power Plants, Lausanne, Switzerland, July 8-11, 1996. From A. Bartle, MTM Conference, Hydropower & Dams, Westmead House, Westmead Road, Sutton, Surrey, SM1 4JH, UK.
+
+Course on "3-D velocity-vorticity measuring and data analysis techniques Switzerland, September 3-6, 1996. From IHW, ETH-Hönggerberg, CH-8093 Zürich, Switzerland
+
+15th IAHR Symposium on Hydraulic Machinery and Cavitation, Belgrade, Yugoslavia, September 11-14, 1990. From Prof. S. Pejovic, Faculty of Mechanical Engineering, University of Belgrade, 27 marta 80, 11000 Belgrade, Yugoslavia
+
+14th IAHR Symposium on Hydraulic Machinery and Cavitation, Trondheim, Norway, June 20-23, 1988. From TAPIR Publisher, The Norwegian Institute of Technology, N-7034 Trondheim, Norway
+
+International Symposium on Large Hydraulic Machinery and Associated Equipments, Beijing, China, May 28-31, 1989. Available at the IAHR Secretariat
+
+13th IAHR Symposium on Hydraulic Machinery and Cavitation, Montreal, Canada, September 2-5, 1986, 3 volumes. From Symposium IAHR-86, Mr Jacques Perreault, Société d'Energie de la Baie James, Montréal, Québec, Canada H2L 4M8
+
+11th IAHR Symposium on Hydraulic Machinery and Cavitation
+
+10th IAHR Symposium on Hydraulic Machinery and Cavitation, Tokyo (1980). Available at the IAHR Secretariat
+
+7th IAHR Symposium on Hydraulic Machinery and Cavitation, Vienna (1974). Available at the IAHR Secretariat
+
+Others
+
+III Latin American on Hydro Power & Systems Meeting, 5-7 September 2017, Quito, Ecuador https://www.latiniahr.com/; Proceedings: https://www.latiniahr.com/; password: LATIN2017
+
+6th IAHR Meeting of the Working Group "Cavitation and Dynamic problems" 9-11 September 2015, Ljubljana, Slovenia http://iahrwg2015.si/en/
+
+II Latin American on Hydro Power & Systems Meeting 27-29 April 2015, La Plata, Argentina http://www.latiniahr.org/meeting/
+
+3rd Int. Conference on Water Pipeline Systems, The Hague, The Netherlands, May 13-15, 1997. From Ms. J. Aldridge, BHR Group Ltd., The Fluid Engineering Centre, Cranfield, Bedfordshire MK43 0AJ U.K.
+
+8th Int. Meeting of the Work Group on The Behaviour of Hydraulic Machinery onder steady Oscillatory Conditions, Chatou, Paris, France, 15-17 September 1997. From Mr. Jean-Francois Lauro, Electricité de France, Direction des Etudes et Recherches, Departement Machines, IAHR WG1 Meeting, 6, quai Watier BP 49, 78401 Chatou Cédex, France.

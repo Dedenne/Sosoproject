@@ -1,0 +1,119 @@
+GIS HED²
+  Renforcer et étendre les recherches sur l'hydraulique environnementale dans le cadre du Grenelle de l'environnement et des thématiques associées: gestion des risques, adaptation au changement climatique, bon potentiel écologique des masses d’eau fortement modifiées, restauration de la continuité biologique et sédimentaire, production d'énergies renouvelables, report modal vers le fluvial, navigation propre et économe.
+
+
+Apporter un support scientifique aux politiques publiques et notamment directions générales du Ministère de l'Ecologie, du Développement Durable, des Transports et du Logement (ci-après MEDDTL) sur la transposition de la Directive Cadre sur l’Eau et de la Directive inondations, sur le plan de prévention des submersions marines et des crues rapides, sur la stratégie nationale du trait de côte, sur le plan d'adaptation au changement climatique.
+
+
+Donner une visibilité à la recherche hydraulique française au niveau international: en appui de l'ingénierie pour une meilleure compétitivité, en développant une masse critique rassemblée dans une même structure, en créant une communauté de recherche nationale et en développant une synergie sur des problématiques de recherche prioritaires à l'échelon national.
+
+
+Faire porter par la SHF le développement d'échanges entre les décideurs nationaux définissant les priorités, les maîtres d'ouvrage précisant leurs besoins et les scientifiques présentant leurs savoirs.
+
+
+Développer une recherche industrielle mieux organisée, comme dans d'autres domaines de l'ingénierie, qui soit réactive, de premier ordre, avec des retombées techniques et scientifiques, avec un fort rayonnement international, s'appuyant sur une formation de haut niveau et soutenant l'innovation.
+
+
+Activités 
+
+Mener le développement de projets nationaux et internationaux de recherches appliquées aux thèmes des risques, de la qualité des milieux aquatiques, de la navigation et de l’énergie hydraulique. 
+
+
+Rendre plus visibles et attractives, en particulier au niveau international, les recherches développées en France sur cette thématique ;offrir un support pour une réponse coordonnée aux appels à projets de recherche internationaux.
+
+
+Fédérer la recherche française en développant une communauté « métier » sur la recherche hydraulique ; développer des outils collaboratifs pour améliorer les échanges de connaissances entre les membres de cette communauté (wiki, e-learning, annuaire, forum, annonces, …). 
+
+
+Ecouter les besoins opérationnels des maîtres d'ouvrage et des directions générales du MEDDTL à travers des journées d'échange portées par la SHF avec production d'une synthèse à leur issue.
+
+
+Thématiques 
+
+Hydraulique comportementale 
+
+Les écoulements à surface libre 
+
+Les écoulements à surface libre regroupent des classes assez diverses d’écoulements à la fois dans le domaine maritime, estuarien et fluvial. Les principales difficultés résident actuellement dans les changements d’échelle (océanique – local ; pluie – débit des rivières ; turbulence) et les couplages de processus (vent-houle-courants ; sédiments-courants,…)
+
+
+Le fonctionnement des ouvrages hydrauliques 
+
+Les écoulements à surface libre, en particulier, dans les conduites et canaux, sont souvent contrôlés par des ouvrages hydrauliques : écluses, barrages, vannes, seuils, etc. Il est nécessaire de bien comprendre leur fonctionnement afin de pouvoir optimiser leur gestion.
+
+
+Hydraulique couplée à d'autres processus 
+
+Le transport sédimentaire et morphodynamique 
+
+Le transport sédimentaire et la morphodynamique fluviale et côtière sont des processus complexes et couplés pour lesquels les connaissances restent encore incomplètes et la modélisation perfectible, en particulier pour fournir des estimations des évolutions à long terme ou lors d’évènements extrêmes.
+
+
+PROJET - Morphodynamique de rives et de berges 
+
+Le transfert de substances 
+
+Lors d’accidents industriels maritimes ou fluviaux ou bien lors de naufrages, il est nécessaire de fournir une bonne estimation du transfert de polluants. Cette estimation est aussi utile pour des pollutions chroniques. Pour cela, des systèmes d’observation mais aussi des modèles numériques performants intégrant les conditions de courants, vagues et vents doivent être mis au point. L’eau est également le vecteur de diverses substances qui peuvent affecter, par exemple, la température, la salinité, l’oxygène, etc. 
+
+
+Les efforts mécaniques sur ouvrages 
+
+La communauté manque d'observations et d’instrumentation terrain accompagnant de grands travaux. Ce retour d'expérience serait pourtant précieux pour enrichir les connaissances dont pourraient bénéficier les constructions futures. Il faudrait en profiter pour développer et tester de nouvelles techniques d'instrumentation. Ces données sont nécessaires pour valider les nouvelles méthodes numériques en développement. 
+
+
+L’hydrologie et l’hydraulique souterraine 
+
+La problématique de l’hydraulique à surface libre est étroitement associée à l’hydrologie et l’hydraulique souterraine y compris les écoulements en réseaux enterrés. Une modélisation de l’ensemble des écoulements est recherchée avec un intérêt particulier pour les inondations en ville et les écoulements dans les bassins versants. 
+
+
+Hydraulique et enjeux 
+
+Les risques d'inondation et de submersion marine 
+
+L'urbanisation croissante et le changement climatique renforcent la vulnérabilité au risque d'inondation et de submersion marine. De nombreuses zones, en particulier les villes, sont souvent soumises à plusieurs risques simultanés : évacuation insuffisante des eaux de pluie, inondation fluviale, submersion marine, franchissement de houle, rupture de digue ou cordon dunaire, propagation des ondes de rupture,... Le développement d'un modèle couplé des écoulements de surface, souterrains et en réseau enterré est nécessaire. Dans le cadre de la directive Européenne inondation, la cartographie des surfaces inondables devient aussi un enjeu majeur qui doit s'accompagner d'un travail sur les incertitudes. En matière de prévision, des progrès sont aussi attendus sur les techniques d'observation et d'assimilation de données afin d'améliorer les systèmes d'alerte, notamment pour les submersions marines où un système de modélisation couplé littoral – côtier – océan est à mettre en place. Le changement climatique doit enfin être anticipé à travers des mesures d'adaptation et une mesure de l'évolution des forçages hydrauliques : débits, surcotes, houle, niveau marin, … 
+
+
+PROJET - Cartographie des inondations 
+PROJET - Modélisation des submersions marines 
+PROJET - Inondations urbaines et changement climatique 
+PROJET - Assimilation de données 
+
+Les risques d’érosion, sédimentation, affouillement et destruction d’habitats 
+
+De nombreuses zones du littoral sont en recul. Le changement climatique devrait venir renforcer cette dynamique. Les recherches portent sur le transport sédimentaire et l'évolution morphodynamique à court et long terme des côtes sableuses ainsi que sur les techniques innovantes d'observation et de protection du littoral. Elles concernent l'évolution naturelle des côtes ainsi que l'impact anthropique lié par exemple à l'extraction de granulats en mer. Elles portent aussi sur les flux sédimentaires à grande échelle ainsi que sur les apports sédimentaires fluviaux. En ce qui concerne les estuaires, la dynamique des environnements turbides est étudiée en interaction avec les opérations de dragage et la lutte contre les submersions. Le transport sédimentaire fluvial est aussi un sujet complexe avec l'évolution de méandres, une granulométrie hétérogène, des zones de dépôt, des affouillements autour d'ouvrages et des évolutions rapides lors d'évènements de crues. L'impact du changement climatique sur les débits sédimentaires fluviaux n'est pas encore bien estimé. 
+
+
+PROJET - Débits solides fluviaux, dérive littorale et son évolution
+PROJET - Extraction de granulats en mer 
+
+Les risques de pollution 
+
+Les polluants d’origines diverses peuvent se retrouver dans les milieux marins et fluviaux. Ils se retrouvent aussi bien dans la colonne d’eau que dans les sédiments, notamment les sédiments fins (vase). Même si elles sont vitales pour l’activité des ports et des voies navigables, les activités de dragage des sédiments sont ainsi susceptibles de menacer l’environnement à la fois durant l’opération de dragage (remise en suspension et disponibilité des polluants qui étaient inertes et immobilisés) et lors du dépôt des matériaux dragués. Le risque dépend cependant beaucoup de la technique de dragage ainsi que de la zone draguée. 
+
+
+La navigation et les infrastructures de navigation 
+
+Dans le cadre du Grenelle de l'environnement, un fort report modal est attendu vers les transports maritimes et fluviaux. De nouvelles problématiques apparaissent comme celle du navire propre, économe, sûr et intelligent. Cela implique des recherches sur la manoeuvrabilité, la consommation de carburants, l'impact environnemental de la navigation. En ce qui concerne les infrastructures, il s'agit de mieux les dimensionner par rapport aux évolutions de la flotte mais aussi du changement climatique. Les aménagements portuaires doivent être étudiés par rapport aux problématiques d'agitation, de stabilité, franchissement ou réflexion de la houle. Les nouvelles approches micro – macro doivent permettre de progresser sur la conception ou les travaux associés aux ouvrages en enrochements. L'approche sédimentaire est aussi essentielle pour l'optimisation des opérations de dragage et une meilleure compréhension de la divagation des chenaux. Enfin l'approche multifonctionnelle des ouvrages doit être recherchée avec, par exemple, la régulation automatique des ouvrages en navigation par rapport aux crues ou la production d'énergie hydraulique dans les ouvrages portuaires. 
+
+
+PROJET - Réduction de la consommation de carburant 
+PROJET - Optimisation des dragages 
+
+Le dimensionnement et la gestion des ouvrages 
+
+Le dimensionnement des ouvrages va être affecté principalement par le changement climatique. L’une de ses premières conséquences est la remontée du niveau moyen des mers. L’augmentation du niveau moyen des mers influera sur le déferlement bathymétrique en zone côtière conduisant à des conditions de houles plus fortes à la côte. Ces conditions plus sévères se traduiront par une réduction de la stabilité des enrochements des digues à talus et par des franchissements plus conséquents. Dans le domaine fluvial, le changement climatique se matérialisera par des épisodes de crues plus importants et des étiages plus sévères. Le traitement de l’incertitude dans le dimensionnement de ces ouvrages devient un enjeu majeur. Compte tenu des objectifs multiples des ouvrages et des cours d'eau naturels ou artificiels (navigation, irrigation, transit des crues, production électrique, etc.), l'optimisation du fonctionnement hydraulique (par exemple, régulation automatique) doit être recherchée. 
+
+
+PROJET - Gestion des incertitudes dans le dimensionnement 
+PROJET - Adaptation des ouvrages au changement climatique 
+
+La production d'énergie hydraulique 
+
+Les infrastructures côtières, portuaires et fluviales disposent d'un potentiel non exploité de production d'énergie hydraulique. Il s'agit de réfléchir à récupérer l'énergie marémotrice ou houlomotrice dans des ouvrages maritimes sur petits fonds. De même la récupération de l'énergie des courants de rivière à l'aide d'hydroliennes ou l'installation de petites centrales hydroélectriques peuvent être étudiées. 
+
+
+PROJET - Energies Marines Côtières et Portuaires 
+
+La gestion des milieux naturels 
+
+La gestion des milieux naturels consiste à assurer la qualité des eaux et des sédiments mais aussi à favoriser la biodiversité. Les écoulements sont en étroite relation avec le développement de la végétation et des espèces animales soit directement soit indirectement à travers les conditions de température, salinité, taux d’oxygène, caractéristiques des sédiments par exemple.

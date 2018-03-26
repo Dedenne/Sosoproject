@@ -1,0 +1,304 @@
+ANSWER : Hydrogramme sur un plan incliné
+Cette page fait partie de la démarche collaborative ANSWER, dont l'objectif est de faire collaborer scientifiques et grand public autour du domaine de l'eau.
+
+Le diagramme suivant illustre le positionnement de la page dans la partie de ANSWER consacrée à la morphodynamique. 
+Chaque "perle" représente une solution analytique (perle "cliquable" sur le diagramme ci-dessous) qui renvoie sur une page plus théorique.
+
+
+La page que vous consultez actuellement décrit le modèle mathématique dans lequel s'inscrit la solution analytique.
+
+
+hydrologie - hydraulique fluviale
+
+Introduction 
+
+L'objet principal de l'hydrologie quantitative est d'étudier la genèse et le propagation des écoulements sur les bassins versants soumis à des averses de pluie. Ces précipitations peuvent être à l'origine d'inondations importantes et produire des dégâts matériels, voire la perte de vies humaines.
+
+
+L'importance de ces évènements est fonction de l'intensité et de la distribution spatiale de la pluie, mais également des caractéristiques des bassins versants: topographie, nature des sols, état de la végétation... En particulier, la capacité d'absorption des sols en eau est un facteur limitant du volume ruisselé.
+
+
+Pour étudier ces processus, le recours à la modélisation est donc de première importance. Nous nous placerons ici dans le cas très schématique d'une surface imperméable, ce qui signifie qu'il n'y a aucune infiltration et que toute l'eau de pluie ruisselle et s'écoule vers l'exutoire du bassin versant.
+
+
+Observation en nature 
+
+Des photos ou des vidéos enregistrées en nature peuvent donner une vision dynamique et réaliste du phénomène de modification des fonds.
+
+
+Essais en laboratoire 
+
+Des essais en laboratoire peuvent être envisagés pour reproduire partiellement ces deux phénomènes. En effet, ces derniers ne peuvent être obtenus de manière très pure, car la turbulence de l'écoulement induit des phénomènes qui ne sont pas pris en compte dans les deux cas traités ci-dessus.
+
+
+Systèmes d'équations 
+
+Nous faisons un certain nombre d'hypothèses à partir des équations de Navier-Stokes afin d'obtenir un modèle plus simple.\\
+
+
+fluide incompressible
+
+
+domaine monodimentionnel infini
+
+
+intégration dans la verticale 
+
+
+pente constante
+
+
+accélération verticale négligeable 
+
+
+frottement négligeable
+
+
+L'équation simplifiée résultante est une équation de type "onde cinématique" qui s'écrit:
+
+
+
+où h(m) est la hauteur d'eau sur le plan incliné, le débit liquide, l'intensité de la pluie.
+Le débit peut être exprimé par une formule empirique du type:
+
+
+qui peut être de type Manning-Strickler : 
+
+
+où est la pente locale du domaine. Si nous injectons (2) dans (1), il vient:
+
+
+qui est l'équation à résoudre.
+
+
+Cas test étudié 
+
+Nous choisissons de traiter l'évolution du film d'eau qui se crée lorsqu'une pluie d'intensité constante tombe sur une surface de longueur , de pente et de coefficient de rugosité de Manning égal à . Nous étudierons l'évolution de la lame d'eau pendant 1 heure.
+
+
+Sur le plan qualitatif, la pluie qui tombe de manière uniforme sur l'ensemble du plan incliné va produire une accumulation d'eau en tout point du domaine et provoquer un écoulement vers l'aval. Le domaine va donc se charger d'une lame d'eau qui va s'épaissir vers l'aval. Ce régime, s'il dure suffisamment longtemps va devenir permanent, c'est-à-dire que le débit qui sort par l'exutoire du domaine (section aval) va équilibrer exactement le débit de pluie qui tombe sur le domaine. Ce débit qui sort en régime permanent à l'aval du domaine a pour expression: 
+
+Ce régime va ensuite se maintenir tant que tombe la pluie.
+Lorsque la pluie cesse (ici au bout de 1200 s), le domaine va se vidanger progressivement par l'aval. 
+Nous pouvons donc considérer 3 intervalles de temps:
+
+
+la mise en charge du domaine jusqu'à obtention du régime permanent, qui s'établit lorsque la première goutte tombée sur la section amont du domaine se retrouve au droit de la section aval t=0 à t=te
+
+
+le temps du régime permanent t=te à t=1200s
+
+
+la vidange du domaine à partir de l'arrêt de la pluie t=1200s à t=3600s
+
+
+Résolution de l'équation d'onde cinématique 
+
+Il s'agit d'une équation non-linéaire de convection pure (onde cinématique) que nous pouvons résoudre par la méthode des caractéristiques. 
+Nous pouvons en effet écrire:
+
+
+Nous obtenons alors le système suivant en comparant avec (4):
+
+Montée de l'hydrogramme 
+
+Ainsi, nous avons (en intégrant (6)) le long de la caractéristique d'équation:
+
+
+Ce qui conduit après intégration entre le pied de la caractéristique au temps et l'abscisse du point (calculé au temps ).
+
+
+Le faisceau des caractéristiques est représenté sur la figure 1.
+
+  
+
+  
+
+Nous allons supposer que la durée de la pluie est suffisamment longue pour produire sur tout le domaine un régime permanent (  ).
+
+Ce régime permanent apparaît lorsque la première goutte de pluie qui tombe sur l'extrémité amont du domaine (  ) atteint l'extrémité aval de l'exutoire (en   ).
+
+Autrement dit, lorsque la caractéristique qui part de l'abscisse   atteint l'abscisse   . En ce point (  ), nous avons d'après (8):
+  
+d'où l'expression du temps d'obtention du régime permanent:
+  
+
+Numériquement, nous obtenons   
+
+Ainsi le régime permanent en tout point du domaine est obtenu pour   la courbe caractéristique supérieure ancrée en   délimite 2 domaines: 
+
+
+un domaine inférieur où le régime est transitoire
+
+
+un domaine supérieur en   où en chaque point du domaine un régime permanent est établi. En   le débit est nul alors qu'en   le débit est maximal.
+
+De manière plus générale, exprimons le débit le long de chaque caractéristique:
+  
+
+Or toujours le long de la caractéristique :
+  
+
+ce qui conduit à l'expression du débit en tout point   
+.
+Ainsi, en tout point   du plan incliné, le débit est proportionnel à la distance entre ce point   et le pied de la caractéristique   qui passe par ce point.
+
+Nous retrouvons donc bien le débit à l'exutoire qui arrive en   au temps   .
+
+Nous pouvons donc écrire au niveau de l'exutoire:
+  
+
+En tout point du domaine, il en est également de même. 
+
+Pour tracer l'hydrogramme en un point particulier   , il faut déterminer l'instant correspondant au régime permanent   en ce point qui est donné par la caractéristique supérieure (caractéristique partant de   ).
+L'état d'équilibre est atteint pour chaque point du domaine en des instants différents, bien que la courbe de montée de l'hydrogramme soit identique en tout point. Nous pouvons donc écrire (d'après (12)): 
+  
+
+Le temps d'équilibre est donné par :
+  
+
+Ceci nous permet de tracer les hydrogrammes en 4 points du domaine, respectivement en x=L/4,L/2,3L/4,L (voir figure 2).
+
+  
+
+  
+
+De même, nous pouvons tracer l'évolution temporelle du niveau de la hauteur d'eau sur l'ensemble du domaine:
+  
+
+Pour cela, nous balayons le plan des caractéristiques par pas de temps constants pour obtenir l'abscisse correspondant à ce temps sur chaque caractéristique afin d'obtenir le triplet   (voir § 4.2.2)
+
+
+Tarissement de l'hydrogramme 
+
+Lorsque la pluie s'arrête (  ), le débit est permanent. 
+
+Le système d'équations se réduit alors à :
+  
+
+Les caractéristiques sont cette fois-ci des droites le long desquelles   . Elles peuvent donc être facilement déterminées connaissant :
+
+le pied de la caractéristique qui correspond au débit permanent à   .
+
+
+  
+
+un point extrémité en temps que nous choisirons à   
+
+L'examen des pentes des caractéristiques montre qu'elles dépendent de l'abscisse   du pied de la caractéristique:
+
+  
+
+Ainsi, la pente de la caractéristique en    :   , ce qui donne une droite caractéristique verticale. Physiquement, cela signifie que la goutte de pluie qui tombe en ce point met en temps infini pour atteindre l'exutoire.
+
+Ceci explique l'allure du faisceau de caractéristiques de la figure suivante, que nous avons tracé pour des valeurs de   en progression géométrique telles que:
+  
+
+L'abscisse extrémité   est donnée pour chaque caractéristique de pied   par:
+  
+
+Ces caractéristiques sont représentées sur la figure 3.
+
+
+  
+
+  
+
+Évolution du débit à l'exutoire 
+
+Le débit à l'exutoire   est fourni par l'intersection des caractéristiques avec la verticale en   .
+
+Le temps est donné par l'expression suivante :
+  
+
+Il en est de même aux abscisses   ,  ,   .
+
+Les hydrogrammes de tarissement au droit de ces abscisses sont représentés sur la figure 4.
+
+
+  
+
+  
+
+Évolution du niveau d'eau sur le plan incliné 
+
+Nous présentons ci-dessous 3 états du niveau d'eau sur le plan incliné:
+
+
+au temps   qui correspond à la montée de l'hydrogramme; 
+
+
+au temps   qui correspond à la fin de la période de pluie. Le domaine est complètement en eau et caractérisé par un régime permanent; 
+
+
+au cours du tarissement, le plan incliné est en phase de vidange. 
+
+
+Ces courbes ont été tracées de la manière suivante:
+
+
+nous choisissons la distribution des pieds des caractéristiques    : linéaire pour la montée et exponentielle pour la descente (relation (20));
+
+
+nous nous déplaçons sur chaque caractéristique par pas de temps constants : pour la montée, la hauteur d'eau est donnée par   et pour le tarissement   
+
+nous obtenons une matrice   pour toutes les valeurs de   ;
+
+
+nous traçons ensuite   pour différentes valeurs de t.
+
+
+En examinant les figures ci-dessous, nous pouvons faire les remarques suivantes:
+
+
+en phase de montée, le domaine se remplit en chaque point d'abscisse par une accumulation verticale de la pluie, mais également par superposition des eaux en provenance de l'amont;
+
+
+le régime permanent est très stable;
+
+
+en phase de tarissement, nous pouvons observer une rapide descente du niveau d'eau, tout particulièrement à l'aval. L'amont a du mal à se vider (voir remarque précédente), mais les lames d'eau résiduelles restent très faibles.
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+L'animation ci-après représente l'évolution de l'épaisseur de la lame d'eau au cours des 3 phases : montée, régime permanent et tarissement.
+
+  
+
+Conclusions 
+
+Dans cette fiche consacrée à la mise en évidence du comportement d'un plan incliné de pente uniforme soumis à une pluie constante et homogène, nous avons étudié la génération, la propagation et l'évacuation de l'eau.
+
+Nous avons étudié les phases de chargement de l'hydrogramme pendant la durée de la pluie jusqu'à obtenir un régime permanent.Nous avons ensuite étudié le tarissement généré par l'arrêt de la pluie jusqu'à évacuation de l'eau sur le plan incliné.
+
+En ce qui concerne les méthodes d'analyse numérique utilisées, nous avons tout particulièrement mis en oeuvre :
+
+
+la méthode des caractéristiques
+
+
+Les résultats obtenus sont satisfaisants par rapport à ce que nous avons pu lire dans la littérature.
+
+Des prolongement de cette étude peuvent être envisagés notamment avec le couplage de ce modèle analytique avec un modèle d'écoulement dans les sols, pour mettre en évidence les processus de ruissellement - infiltration que nous observons dans les bassins hydrologiques et qui sont souvent à l'origine de crues.
+
+
+Références bibliographiques 
+
+Pierre-Alain Roche, Jacques Miquel, Eric Gaume, "Hydrologie quantitative - Processus, modèles et aide à la décision", Springer-Verlag, juin 2012, 590 pages.
+
+
+Thomas Esclaffier (notes non publiées).
+
+
+Le créateur de cet article est Jean-Michel Tanguy
