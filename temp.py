@@ -27,6 +27,8 @@ findephrase = ['.','[',']','?','!','...','."','".','.".','\n','','?"','!"','!--'
 findeprop = [',','(',')','"',';'," '","' ",',"',':',',--','--"']
 findemot = ['\n',' ']
 FailWords = ['mr','mme','chapter','mrs','ainsi']
+months = ['janvier','février','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre',
+          'january','februar','march','april','may','june','july','august','september','october','november','december']
 toreplace = ['Ã ','Ã¢','Ã©','Ã¨','Ãª','Ã«','Ã®','Ã¯','Ã´','Ã¶','Ã¹','Ã»','Ã¼','Ã§','Â°','â€™','Ã']
 replacement = ['à','â','é','è','ê','ë','î','ï','ô','ö','ù','û','ü','ç','°',"'",'à']
 seed = 7
@@ -106,11 +108,11 @@ def actors(text,parameter=0):
     words = len(text)
     if parameter == 0:
         parameter = defparameter(words)
-    if isenglish(text):
-        tags = nltk.pos_tag(text)
-    else:#on suppose alors que le texte est en français
-        pos_tagger = StanfordPOSTagger(model, jar, encoding='utf8')
-        tags = pos_tagger.tag(text)
+    #if isenglish(text):
+    tags = nltk.pos_tag(text)
+    #else:#on suppose alors que le texte est en français
+        #pos_tagger = StanfordPOSTagger(model, jar, encoding='utf8')
+        #tags = pos_tagger.tag(text)
     finder = nltk.collocations.BigramCollocationFinder.from_words(text)
     scored = finder.score_ngrams(bgm.likelihood_ratio)
     freq = motsfrequents(text,parameter)
@@ -221,7 +223,8 @@ def events(tags,text):
     for i in range(len(tags)):
         classe = tags[i][1]
         word = tags[i][0]
-        if classe == 'CD' and word.isnumeric() and int(word)>1900 and int(word)<2100:
+        if (classe == 'CD' and word.isnumeric() and int(word)>1900 and
+            int(word)<2100 or word.lower() in months):
             print(word)
             a = nextfindephrase(max(0,i-100),text)
             b = nextfindephrase(a,text)
