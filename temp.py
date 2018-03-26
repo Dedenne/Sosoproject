@@ -26,7 +26,7 @@ stopWords = set(nltk.corpus.stopwords.words('french'))|set(nltk.corpus.stopwords
 findephrase = ['.','[',']','?','!','...','."','".','.".','\n','','?"','!"','!--']
 findeprop = [',','(',')','"',';'," '","' ",',"',':',',--','--"']
 findemot = ['\n',' ']
-FailWords = ['mr','mme','chapter','mrs','les']
+FailWords = ['mr','mme','chapter','mrs','ainsi']
 toreplace = ['Ã ','Ã¢','Ã©','Ã¨','Ãª','Ã«','Ã®','Ã¯','Ã´','Ã¶','Ã¹','Ã»','Ã¼','Ã§','Â°','â€™','Ã']
 replacement = ['à','â','é','è','ê','ë','î','ï','ô','ö','ù','û','ü','ç','°',"'",'à']
 seed = 7
@@ -106,11 +106,11 @@ def actors(text,parameter=0):
     words = len(text)
     if parameter == 0:
         parameter = defparameter(words)
-    #if isenglish(text):
-    #    tags = nltk.pos_tag(text)
-    #else:#on suppose alors que le texte est en français
-    #    pos_tagger = StanfordPOSTagger(model, jar, encoding='utf8')
-    #    tags = pos_tagger.tag(text)
+    if isenglish(text):
+        tags = nltk.pos_tag(text)
+    else:#on suppose alors que le texte est en français
+        pos_tagger = StanfordPOSTagger(model, jar, encoding='utf8')
+        tags = pos_tagger.tag(text)
     finder = nltk.collocations.BigramCollocationFinder.from_words(text)
     scored = finder.score_ngrams(bgm.likelihood_ratio)
     freq = motsfrequents(text,parameter)
@@ -145,7 +145,8 @@ def actors(text,parameter=0):
     #frequency = 500
     #duration = 500 
     #winsound.Beep(frequency, duration)
-    return regroup(final)
+    dates = events(tags,text)
+    return regroup(final),dates
 
 def reduce(liste):
     liste += ['/n']#random mot dont on sait qu'il ne se trouve pas dans liste
@@ -209,6 +210,31 @@ def txtToUsableText(file):
     words = [cleaning(text[i]) for i in range(len(text))]
     return words
 
+def nextfindephrase(i,text):
+    i+=1
+    while text[i] not in findephrase:
+        i+=1
+    return i
+
+def events(tags,text):
+    evenements = []
+    for i in range(len(tags)):
+        classe = tags[i][1]
+        word = tags[i][0]
+        if classe == 'CD' and word.isnumeric() and int(word)>1900 and int(word)<2100:
+            print(word)
+            a = nextfindephrase(max(0,i-100),text)
+            b = nextfindephrase(a,text)
+            while b<=i:
+                a = b
+                b=nextfindephrase(b,text)
+            toappend = ''
+            for t in range(a+1,b):
+                toappend += text[t]+' '
+            evenements += [toappend]
+    return reduce(evenements)
+            
+
 def isenglish(text):#text sous forme de liste de str
     wcount = 0
     lcount = 0
@@ -223,9 +249,6 @@ def isenglish(text):#text sous forme de liste de str
     else:
         return False
     
-        
-        
-
 #X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(createX(book.text2), createY(book.text2,actors2), test_size=validation_size, random_state=seed)
 #DTC = DecisionTreeClassifier()
 #DTC.fit(X_train, Y_train)
