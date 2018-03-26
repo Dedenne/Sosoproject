@@ -102,8 +102,10 @@ def createtestX(text):
         X += [[len(mot),i,text.index(mot),placeDansLaPhrase(text,i),placeDansLaProp(text,i),isin(mot,motsfreq),isin(mot,motspert)]]
     return X
 
-def actors(text):
+def actors(text,parameter=0):
     words = len(text)
+    if parameter == 0:
+        parameter = defparameter(words)
     #if isenglish(text):
     #    tags = nltk.pos_tag(text)
     #else:#on suppose alors que le texte est en français
@@ -111,9 +113,9 @@ def actors(text):
     #    tags = pos_tagger.tag(text)
     finder = nltk.collocations.BigramCollocationFinder.from_words(text)
     scored = finder.score_ngrams(bgm.likelihood_ratio)
-    freq = motsfrequents(text,defparameter(words))
+    freq = motsfrequents(text,parameter)
     init = [freq[i] for i in range(len(freq)) if freq[i] not in findephrase+findeprop+findemot]
-    debut = motspertinents(text,defparameter(words))
+    debut = motspertinents(text,parameter)
     inter = []
     for i in range(len(debut)):
         mot = debut[i].lower()
