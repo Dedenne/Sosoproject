@@ -173,3 +173,37 @@ class Game:
 						force_x = blank["col"]
 
 		return force_x
+
+	    def check_win( self ):
+		""" Check the game board if someone has won.
+		Returns the stone value of the winner or the value
+		of a blank stone if there is no winner yet.
+		"""
+
+		for x in range( FIELD_WIDTH ):
+			for y in range( FIELD_HEIGHT ):
+				# We only care about players, not blank fields
+				if self.board[x][y] == 0:
+					continue
+
+				# Check: UP
+				blank, ai, human = self._count_stones_up( x, y )
+				if ai == CONNECT: return -1
+				elif human == CONNECT: return 1
+
+				# Check: RIGHT
+				blank, ai, human = self._count_stones_right( x, y )
+				if ai == CONNECT: return -1
+				elif human == CONNECT: return 1
+
+				# Check: DIAGONAL RIGHT UP
+				blank, ai, human = self._count_stones_rightup( x, y )
+				if ai == CONNECT: return -1
+				elif human == CONNECT: return 1
+
+				# Check: DIAGONAL RIGHT DOWN
+				blank, ai, human = self._count_stones_rightdown( x, y )
+				if ai == CONNECT: return -1
+				elif human == CONNECT: return 1
+
+		return 0
