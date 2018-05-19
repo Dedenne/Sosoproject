@@ -50,3 +50,59 @@ class Game:
 			else: human += 1
 
 		return ( blank, ai, human, flag_stop )
+
+	def _count_stones_up( self, x, y ):
+		""" From position (x,y) count the types of the next stones upwards. """
+
+		blank, ai, human = -1, 0, 0
+
+		if y + CONNECT <= FIELD_HEIGHT:
+			for i in range( CONNECT ):
+				col, row = x, y + i
+				stone = self.board[col][row]
+				blank, ai, human, flag_stop = self._count_stones( col, row, stone, blank, ai, human )
+				if flag_stop: break
+
+		return ( blank, ai, human )
+
+	def _count_stones_right( self, x, y ):
+		""" From position (x,y) count the types of the next stones to the right. """
+
+		blank, ai, human = -1, 0, 0
+
+		if x + CONNECT <= FIELD_WIDTH:
+			for i in range( CONNECT ):
+				col, row = x + i, y
+				stone = self.board[col][row]
+				blank, ai, human, flag_stop = self._count_stones( col, row, stone, blank, ai, human )
+				if flag_stop: break
+
+		return ( blank, ai, human )
+
+	def _count_stones_rightup( self, x, y ):
+		""" From position (x,y) count the types of the next stones diagonal right up. """
+
+		blank, ai, human = -1, 0, 0
+
+		if x + CONNECT <= FIELD_WIDTH and y + CONNECT <= FIELD_HEIGHT:
+			for i in range( CONNECT ):
+				col, row = x + i, y + i
+				stone = self.board[col][row]
+				blank, ai, human, flag_stop = self._count_stones( col, row, stone, blank, ai, human )
+				if flag_stop: break
+
+		return ( blank, ai, human )
+
+        def _count_stones_rightdown( self, x, y ):
+		""" From position (x,y) count the types of the next stones diagonal right down. """
+
+		blank, ai, human = -1, 0, 0
+
+		if x + CONNECT <= FIELD_WIDTH and y - CONNECT + 1 >= 0:
+			for i in range( CONNECT ):
+				col, row = x + i, y - i
+				stone = self.board[col][row]
+				blank, ai, human, flag_stop = self._count_stones( col, row, stone, blank, ai, human )
+				if flag_stop: break
+
+		return ( blank, ai, human )
