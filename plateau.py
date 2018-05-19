@@ -24,3 +24,9 @@ class Board:
 			if self.board[i][insert_column] == '.':
 				self.board[i][insert_column] = player.getSymbol()
 				return
+
+	def printPretty(self):
+		for item in self.board:
+			for position in item:
+				print(position, end=" ")
+			print("")
