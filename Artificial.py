@@ -106,3 +106,18 @@ class Game:
 				if flag_stop: break
 
 		return ( blank, ai, human )
+
+        def _check_proposed_col( self, pos ):
+		""" We want to check if we can place a stone here (don't levitate !)
+                Returns true (ok)/false (ko)
+		"""
+
+		if pos == -1:
+			return False
+
+		if pos["col"] >= 0 and pos["col"] < 7:
+			# Check if it is possible to place the stone at the needed height
+			if pos["row"] == 0 or self.board[pos["col"]][pos["row"] - 1] != 0:
+				return True
+
+		return False
