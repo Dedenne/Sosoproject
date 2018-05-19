@@ -121,3 +121,55 @@ class Game:
 				return True
 
 		return False
+
+	def _find_forced_move( self ):
+		""" Check if the next move is a forced one and where to place the stone.
+		A forced move occurs if the human player or the AI could win the game with the next move.
+		Returns the position where to place the stone or -1 if not necessary.
+		"""
+
+		force_x = -1
+
+		for x in range( FIELD_WIDTH ):
+			for y in range( FIELD_HEIGHT ):
+
+				# Check: UP
+				blank, ai, human = self._count_stones_up( x, y )
+				# Evaluate: UP
+				if blank != -1:
+					# If there is a chance to win: Do it!
+					if ai == 3: return blank["col"]
+					# Remember dangerous situation for now.
+					# Maybe there will be a chance to win somewhere else!
+					elif human == 3:
+						if VERBOSE: print "[human] could win UP with %d." % blank["col"]
+						force_x = blank["col"]
+
+				# Check: RIGHT
+				blank, ai, human = self._count_stones_right( x, y )
+				# Evaluate: RIGHT
+				if self._check_proposed_col( blank ):
+					if ai == 3: return blank["col"]
+					elif human == 3:
+						if VERBOSE: print "[human] could win RIGHT with %d." % blank["col"]
+						force_x = blank["col"]
+
+				# Check: DIAGONAL RIGHT UP
+				blank, ai, human = self._count_stones_rightup( x, y )
+				# Evaluate: DIAGONAL RIGHT UP
+				if self._check_proposed_col( blank ):
+					if ai == 3: return blank["col"]
+					elif human == 3:
+						if VERBOSE: print "[human] could win DIAGONAL RIGHT UP with %d." % blank["col"]
+						force_x = blank["col"]
+
+				# Check: DIAGONAL RIGHT DOWN
+				blank, ai, human = self._count_stones_rightdown( x, y )
+				# Evaluate: DIAGONAL RIGHT DOWN
+				if self._check_proposed_col( blank ):
+					if ai == 3: return blank["col"]
+					elif human == 3:
+						if VERBOSE: print "[human] could win DIAGONAL RIGHT DOWN with %d." % blank["col"]
+						force_x = blank["col"]
+
+		return force_x
