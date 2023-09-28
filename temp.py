@@ -20,6 +20,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 
+secret_token = "da59936e-daa1-43c4-a02b-82bbe7b7d75a"
+
 jar = 'stanford-postagger-full-2018-02-27/stanford-postagger-3.9.1.jar'
 model = 'stanford-postagger-full-2018-02-27/models/french.tagger'
 stopWords = set(nltk.corpus.stopwords.words('french'))|set(nltk.corpus.stopwords.words('english'))
